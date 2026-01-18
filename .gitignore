@@ -1,0 +1,13 @@
+# Create .gitignore with proper content
+@"
+# macOS files
+.DS_Store
+__MACOSX/
+
+# Data files (too large for Git)
+*.csv
+csv_files/
+
+# Windows
+Thumbs.db
+"@ | Out-File .gitignore -Encoding UTF8
